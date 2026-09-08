@@ -420,7 +420,8 @@ export const achievements = {
   ],
 
   hackathons: [
-    { name: "Smart India Hackathon 2025", result: "Participant — Developed an AI-powered solution" }
+    "Smart India Hackathon 2025",
+    "Participant — Developed an AI-powered solution"
   ],
 
   competitions: [
