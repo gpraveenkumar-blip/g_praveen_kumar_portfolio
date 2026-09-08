@@ -419,10 +419,10 @@ export const achievements = {
     "Built and deployed multiple real-world AI-powered projects"
   ],
 
-  hackathons: [{
-    name: "Smart India Hackathon 2025",
-    result: "Participant — Developed an AI-powered solution"
-  }],
+  hackathons: [
+    "Smart India Hackathon 2025",
+    "Participant — Developed an AI-powered solution"
+  ],
 
   competitions: [
     "Kaggle — 3 Competitions",
