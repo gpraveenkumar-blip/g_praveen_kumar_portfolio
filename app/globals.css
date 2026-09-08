@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink dark:bg-ink dark:text-paper font-body antialiased;
+}
+
+::selection {
+  @apply bg-accent/20;
+}
+
+/* visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid #2F6FED;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container-xl {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+
+.section-label {
+  @apply font-mono text-xs uppercase tracking-[0.2em] text-accent;
+}
+
+.card {
+  @apply rounded-2xl border border-navy/10 bg-white shadow-card transition-shadow duration-300 hover:shadow-cardHover dark:border-white/10 dark:bg-navy2;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-grad-accent px-6 py-3 text-sm font-semibold text-white shadow-card transition-transform duration-200 hover:scale-[1.03] focus-visible:scale-[1.03] active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-navy/15 bg-white px-6 py-3 text-sm font-semibold text-navy transition-colors duration-200 hover:border-accent hover:text-accent dark:border-white/15 dark:bg-transparent dark:text-paper dark:hover:text-accent;
+}
+
+.progress-track {
+  @apply h-1.5 w-full overflow-hidden rounded-full bg-navy/10 dark:bg-white/10;
+}
+.progress-fill {
+  @apply h-full rounded-full bg-grad-accent;
+}
