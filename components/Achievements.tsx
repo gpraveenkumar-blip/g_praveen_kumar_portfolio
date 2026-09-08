@@ -6,7 +6,7 @@ import { achievements } from "@/lib/data";
 
 const blocks = [
   { icon: Code2, title: "Coding", items: achievements.coding },
-  { icon: Trophy, title: "Hackathons", items: achievements.hackathons.map((h) => `${h.name} — ${h.result}`) },
+  { icon: Trophy, title: "Hackathons", items: achievements.hackathons },
   { icon: FlaskConical, title: "Competitions", items: achievements.competitions },
   { icon: BookOpen, title: "Research & Publications", items: [...achievements.research, ...achievements.publications.map((p) => p.title)] }
 ];
