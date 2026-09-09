@@ -435,7 +435,13 @@ export const achievements = {
     "Hands-on exploration of Computer Vision, Deep Learning, and Generative AI through practical projects"
   ],
 
-  publications: [],
+  publications: [
+    {
+      title: "AICTE 6-Week Internship in Artificial Intelligence & Machine Learning",
+      venue: "LinkedIn — 2025",
+      url: "https://www.linkedin.com/posts/g-praveen-kumar-421834307_aicte-6-weeks-internship-in-aiml-edunet-activity-7411775260619890689-miou"
+    }
+  ],
 
   badges: [
     "Artificial Intelligence & Machine Learning Internship — Edunet Foundation",
@@ -443,14 +449,6 @@ export const achievements = {
   ]
 };
 
-export const testimonials = [
-  {
-    name: "Apna College Mentor",
-    role: "Mentor, Apna College",
-    quote:
-      "A motivated learner with strong interest in AI/ML and a practical approach to building real-world projects."
-  }
-];
 
 export const whyHireMe = [
   { title: "Strong problem-solving", description: "I break ambiguous problems into testable ML hypotheses fast." },
@@ -495,30 +493,6 @@ export const careerTimeline = [
   { year: "2024", title: "To build AI powered real time projects shipped", description: "Built and deployed a full stack Ai powered projects end-to-end." },
   { year: "2025", title: "AI/ML Engineer Internship", description: "Owned a computer-vision and Deep learning feature end-to-end." },
   { year: "2026", title: "Graduating — seeking full-time AI/ML Engineer role", description: "You are here." }
-];
-
-export const blogPosts = [
-  {
-    title: "Building AI-Powered SaaS Applications with Generative AI",
-    excerpt:
-      "An overview of building intelligent SaaS products with Generative AI, including LLM integration, automation, APIs, and creating useful AI-driven user experiences.",
-    date: "2026-03-18",
-    tags: ["Generative AI", "LLMs", "AI SaaS"]
-  },
-  {
-    title: "From Machine Learning Model to Production API with FastAPI",
-    excerpt:
-      "A practical guide to turning a trained machine learning model into a production-ready API using FastAPI, with a focus on integration, deployment, and scalability.",
-    date: "2025-11-07",
-    tags: ["Machine Learning", "FastAPI", "Deployment"]
-  },
-  {
-    title: "Building Real-World Computer Vision Applications with YOLO",
-    excerpt:
-      "Exploring how YOLO can be used to build practical computer vision applications, from object detection and model training to real-world deployment.",
-    date: "2025-07-24",
-    tags: ["Computer Vision", "YOLO", "Deep Learning"]
-  }
 ];
 
 export const chatbotFaq: { question: string; keywords: string[]; answer: string }[] = [

@@ -9,8 +9,6 @@ import Resume from "@/components/Resume";
 import Achievements from "@/components/Achievements";
 import RecruiterDashboard from "@/components/RecruiterDashboard";
 import CodingProfiles from "@/components/CodingProfiles";
-import Testimonials from "@/components/Testimonials";
-import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -29,8 +27,6 @@ export default function Home() {
         <Achievements />
         <RecruiterDashboard />
         <CodingProfiles />
-        <Testimonials />
-        <Blog />
         <Contact />
       </main>
       <Footer />

@@ -12,7 +12,6 @@ const socials = [
   { href: profile.social.kaggle, label: "Kaggle", icon: ExternalLink },
   { href: profile.social.leetcode, label: "LeetCode", icon: ExternalLink },
   { href: profile.social.hackerrank, label: "HackerRank", icon: ExternalLink },
-  { href: profile.social.medium, label: "Medium", icon: ExternalLink },
   { href: profile.social.email, label: "Email", icon: Mail }
 ];
 
